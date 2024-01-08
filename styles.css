@@ -379,6 +379,7 @@
 
 .portfolio {
   padding: 80px 0;
+  background: rgba(173, 173, 177, 0.05);
 }
 
 .portfolio h4 {
@@ -412,7 +413,7 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 25px;
+  gap: 30px;
   margin: 30px 0;
 }
 .portfolio_container img {
@@ -466,12 +467,15 @@
 
 .newsletter_container form input {
   width: 55%;
-  color: rgba(7, 2, 17, 0.3);
+  color: #333;
   padding: 25px 30px;
   font-size: 20px;
   border: none;
   outline: none;
   border-radius: 40px 0 0 40px;
+}
+.newsletter_container form input::placeholder {
+  color: rgba(7, 2, 17, 0.3);
 }
 
 .newsletter_container form button {
@@ -484,4 +488,61 @@
   outline: none;
   border-radius: 0 40px 40px 0;
   cursor: pointer;
+}
+
+/*/ //////////////////// Portfolio Section Styles Start Here /////////////////////*/
+
+.footer {
+  background-color: #070211;
+  color: #fff;
+  padding: 80px 0;
+}
+
+.footer_container .footer_line {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.15);
+  margin: 50px 0;
+}
+
+.footer_top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.footer_top p {
+  font-family: Inter, sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+.footer_middle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer_middle .social_box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+}
+
+.footer_middle .social_box a {
+  text-decoration: none;
+}
+
+.footer_bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer_bottom p {
+  font-family: Inter, sans-serif;
+  font-size: 24px;
+  font-weight: 500;
 }
