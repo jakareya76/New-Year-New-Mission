@@ -158,7 +158,7 @@
   z-index: 2;
 }
 
-/*/ //////////////////// midnight party Section Styles Start Here /////////////////////*/
+/*/ //////////////////// Schedule Section Styles Start Here /////////////////////*/
 
 .schedule {
   padding: 80px 0;
@@ -206,7 +206,7 @@
   cursor: pointer;
 }
 
-/*/ //////////////////// midnight party Section Styles Start Here /////////////////////*/
+/*/ //////////////////// Coming Soon Section Styles Start Here /////////////////////*/
 
 .coming_soon {
   padding: 80px 0;
@@ -284,4 +284,131 @@
   font-weight: 400;
   line-height: 28px;
   margin: 16px 0;
+}
+
+/*/ //////////////////// Holidays Sale Section Styles Start Here /////////////////////*/
+
+.sales {
+  padding: 80px 0;
+  text-align: center;
+}
+
+.sales h4 {
+  color: #070211;
+  font-family: Inter, sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.sales h2 {
+  color: #070211;
+  font-family: Merriweather, sans-serif;
+  font-size: 72px;
+  font-weight: 900;
+  margin: 10px;
+}
+
+.sales h2 span {
+  color: #f00;
+  font-family: Merriweather, sans-serif;
+  font-size: 72px;
+  font-weight: 900;
+}
+
+.sales p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  padding: 10px 120px;
+}
+
+.sales_container {
+  margin-top: 80px;
+}
+
+.sales_container .top_area {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.sales_container_left {
+  width: 65%;
+  height: 100%;
+  position: relative;
+}
+
+.sales_container_right {
+  width: 36%;
+}
+
+.sales_container_left img {
+  position: absolute;
+  top: -150px;
+  right: -18%;
+}
+
+.sales_container .bottom_area {
+  width: 100%;
+  height: 200px;
+  background-image: url("./images/Rectangle-2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  border-radius: 16px 0 16px 16px;
+  margin-top: -5px;
+}
+
+.bottom_area img {
+  width: 700px;
+  position: absolute;
+  bottom: 0%;
+  left: 0;
+}
+
+/*/ //////////////////// Portfolio Section Styles Start Here /////////////////////*/
+
+.portfolio {
+  padding: 80px 0;
+}
+
+.portfolio h4 {
+  color: #f00;
+  font-family: Inter, sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.portfolio h2 {
+  color: #070211;
+  font-family: Merriweather, sans-serif;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin: 16px 0;
+}
+.portfolio p {
+  width: 800px;
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.portfolio_container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin: 30px 0;
+}
+.portfolio_container img {
+  width: 380px;
 }
