@@ -418,3 +418,70 @@
 .portfolio_container img {
   width: 380px;
 }
+
+/*/ //////////////////// Portfolio Section Styles Start Here /////////////////////*/
+
+.newsletter {
+  padding: 80px 0;
+}
+
+.newsletter_container {
+  background: rgba(255, 0, 0, 0.05);
+  text-align: center;
+  padding: 80px 150px;
+  border-radius: 16px;
+}
+
+.newsletter_container img {
+  width: 150px;
+  height: 150px;
+}
+
+.newsletter_container h2 {
+  color: #070211;
+  font-family: Merriweather, sans-serif;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin: 16px 0;
+}
+
+.newsletter_container p {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.newsletter_container form {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+.newsletter_container form input {
+  width: 55%;
+  color: rgba(7, 2, 17, 0.3);
+  padding: 25px 30px;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  border-radius: 40px 0 0 40px;
+}
+
+.newsletter_container form button {
+  background-color: #f00;
+  color: white;
+  font-family: Inter, sans-serif;
+  padding: 22px 30px;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  border-radius: 0 40px 40px 0;
+  cursor: pointer;
+}
