@@ -94,7 +94,7 @@
   margin-bottom: 40px;
 }
 
-/*/ //////////////////// midnight party Section Styles Start Here /////////////////////*/
+/*/ //////////////////// Midnight Party Section Styles Start Here /////////////////////*/
 
 .party {
   padding: 80px 0;
@@ -245,11 +245,10 @@
 }
 .left p {
   color: rgba(7, 2, 17, 0.6);
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-size: 18px;
-  font-style: normal;
   font-weight: 400;
-  line-height: 28px; /* 160% */
+  line-height: 28px;
 }
 
 .middle {
@@ -420,7 +419,7 @@
   width: 380px;
 }
 
-/*/ //////////////////// Portfolio Section Styles Start Here /////////////////////*/
+/*/ //////////////////// Newsletter Section Styles Start Here /////////////////////*/
 
 .newsletter {
   padding: 80px 0;
@@ -490,7 +489,7 @@
   cursor: pointer;
 }
 
-/*/ //////////////////// Portfolio Section Styles Start Here /////////////////////*/
+/*/ //////////////////// Footer Styles Start Here /////////////////////*/
 
 .footer {
   background-color: #070211;
